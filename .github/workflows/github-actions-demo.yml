@@ -3,6 +3,6 @@ run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs:
   Explore-GitHub-Actions:
-    runs-on: python:3-slim
+    runs-on: ubuntu-latest
     steps:
       - run: python -m pytest
